@@ -57,9 +57,12 @@ Ball
   - y
   - xSpeed
   - ySpeed
+  - new ball
 - METHODS
   - display
   - constructor
+  - collide
+  - bounce
 
 Paddle 
 - Instance variables:
