@@ -21,7 +21,7 @@ This project will be completed in phases. The first phase will be to work on thi
 ### Necessary Features
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
 
- A controller paddle, mousetracking tracking, rows of bricks, a ball that bounces off surfaces, ability to lose a life if the paddle misses the ball, coloring of objects
+ A controller paddle, mouse tracking, rows of bricks, a ball that bounces off surfaces, ability to lose a life if the paddle misses the ball, coloring of objects
 
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
@@ -35,8 +35,7 @@ How will you be using arrays in this project?
 - set the rows of bricks in the game
 
 2D Array:
-- determine if the bricks are dead or alive within the array 
-
+- determines collsion status with ball
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
@@ -45,21 +44,33 @@ Keyboard Commands:
 - keyPressed() --> Space bar to start game (ball movement)
 
 Mouse Control:
-- Mouse movement: mouseMoved() --> paddle 
+- Mouse movement: mouseMoved() --> paddle , mouseX 
 - Mouse pressed: mouseClicked() 
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-CLASS NAME0
+Ball 
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - x
+  - y
+  - xSpeed
+  - ySpeed
 - METHODS
-  - LIST METHODS HERE
+  - display
+  - constructor
 
-CLASS NAME1
+Paddle 
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - x
 - METHODS
-  - LIST METHODS HERE
+  - constructor
+  - display
+
+Bricks
+- Instance variables:
+  - rows/columns
+- METHODS
+  - constructor
+  - display
