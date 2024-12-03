@@ -32,21 +32,21 @@ Ability to reset and pause the game.
 How will you be using arrays in this project?
 
 1D Array:
-- YOUR ANSER HERE
+- set the rows of bricks in the game
 
 2D Array:
-- YOUR ANSWER HERE
+- determine if the bricks are dead or alive within the array 
 
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- keyPressed() --> Space bar to start game (ball movement)
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: mouseMoved() --> paddle 
+- Mouse pressed: mouseClicked() 
 
 
 ### Classes
