@@ -35,7 +35,7 @@ How will you be using arrays in this project?
 - set the rows of bricks in the game
 
 2D Array:
-- determines collsion status with ball
+- determines if ball shares same x/y cor as brick
 
 ### Controls
 How will your program be controlled? List all keyboard commands and mouse interactions.
